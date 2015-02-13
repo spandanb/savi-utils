@@ -20,6 +20,6 @@ sudo apt-get -y install libxml2-dev libxslt1-dev
 
 sudo python ./setup.py install
 
-// to run ryu using the simple_switch controller… 
+# to run ryu using the simple_switch controller, run the following… 
 PYTHONPATH=. ./bin/ryu-manager ryu/app/simple_switch.py
 
